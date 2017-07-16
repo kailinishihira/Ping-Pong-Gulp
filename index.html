@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Russo+One" rel="stylesheet">
+    <title>Ping-Pong</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h1>Let's Play <em>Ping-Pong!</em></h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2">
+          <div class="about">
+            <h4>About Ping Pong</h4>
+              <p>Created by:</p>
+              <h4>Kaili Nishihira</h3>
+              <p>Github Username:</p>
+              <h4><a href="https://github.com/kailinishihira" target="_blank">kailinishihira</a></h3>
+          </div>
+        </div>
+
+        <div class="col-md-10">
+          <img src="img/girl.png" alt="A picture of an anime girl with a ping pong paddle.">
+          <h2>Rules:</h2>
+          <p>Ping-Pong will count up to your number from 1 with the following exceptions:</p>
+          <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 3 & 5 become "ping-pong"</li>
+          </ol>
+
+          <form id="ping-pong">
+            <div class="form-group">
+              <label for="user-input">Enter your number here:</label>
+              <input class="form-control input-lg" id="numbers" type="number">
+              <button type="submit" class="btn">Serve!</button>
+            </div>
+          </form>
+
+
+          <h2 class="results">Rally:</h2>
+          <div>
+            <ul class="output">
+            </ul>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

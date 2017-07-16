@@ -1,0 +1,54 @@
+body {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-size: cover;
+  background-color: #9478bf;
+  text-align: center;
+  letter-spacing: 15px;
+}
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
+
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.btn {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: red;
+}
+
+img {
+  padding: 5px;
+  border: 2px solid black;
+  margin-right: 30px;
+  width: 50%;
+  float: left;
+}
+
+.output {
+  /*width: 35em;*/
+  font-size: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 2px;
+  border: 2px solid black;
+  list-style-type: none;
+}
+
+.about {
+  font-family: 'Russo One', sans-serif;
+  font-size: 12px;
+  color: #717375
+}
