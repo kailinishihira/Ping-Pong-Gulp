@@ -38,13 +38,13 @@ img {
 }
 
 .output {
-  /*width: 35em;*/
   font-size: 30px;
   font-size: 30px;
   font-weight: bold;
   padding: 2px;
   border: 2px solid black;
   list-style-type: none;
+  text-align: center;
 }
 
 .about {
