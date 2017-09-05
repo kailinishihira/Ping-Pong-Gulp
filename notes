@@ -1,0 +1,19 @@
+To start a new project, we run the following commands to create our manifest files package.json and bower.json:
+$ npm init
+$ bower init
+
+To install packages:
+$ npm install packagename --save-dev
+$ bower install packagename --save
+  - 1st part of command installs the package code to the project
+  - 2nd part of command add package to the manifest file(package.json & bower.json)
+    --save-dev adds to the project to the dev dependencies
+    --save adds the project to the production dependencies
+
+When cloning, run:
+$ npm install
+$ bower install
+
+To get project up & running:
+$ gulp build
+$ gulp serve
