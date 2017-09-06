@@ -1,8 +1,20 @@
 {
-  "name": "ping-pong-edit",
+  "name": "ping-pong",
   "version": "1.0.0",
-  "description": "_The webpage will prompt the user to enter a number and the webpage will return their number counting up from 1 with the following exceptions:_",
-  "main": "index.js",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "del": "^3.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.5",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,15 +28,5 @@
     "url": "https://github.com/kailinishihira/ping-pong-edit/issues"
   },
   "homepage": "https://github.com/kailinishihira/ping-pong-edit#readme",
-  "devDependencies": {
-    "browserify": "^14.4.0",
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-jshint": "^2.0.4",
-    "gulp-uglify": "^3.0.0",
-    "gulp-util": "^3.0.8",
-    "jshint": "^2.9.5",
-    "vinyl-source-stream": "^1.1.0"
-  }
+  "description": ""
 }

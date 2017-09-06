@@ -2,14 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Russo+One" rel="stylesheet">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Russo+One" rel="stylesheet">
     <title>Ping-Pong</title>
   </head>
   <body>
@@ -42,15 +39,28 @@
           <form id="ping-pong">
             <div class="form-group">
               <label for="user-input">Enter your number here:</label>
-              <input class="form-control input-lg" id="numbers" type="number">
+              <input class="form-control input-lg" id="userInput" type="number">
               <button type="submit" class="btn">Serve!</button>
             </div>
           </form>
 
+          <form id="ping-pong-add">
+            <label for="number1">Enter a number: </label>
+            <input id="number1" type="number">
+            <label for="number2">Enter another number: </label>
+            <input id="number2" type="number">
+            <button type="submit">Add</button>
+          </form>
+
+          <form id="signup">
+            <label for="email">Enter your email:</label>
+            <input id="email" type="text">
+            <button type="submit">Submit</button>
+          </form>
 
           <h2 class="results">Rally:</h2>
           <div>
-            <ul class="output">
+            <ul id="solution">
             </ul>
           </div>
       </div>

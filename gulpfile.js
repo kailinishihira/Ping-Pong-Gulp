@@ -6,7 +6,7 @@ var uglify = require('gulp-uglify');
 var utilities = require('gulp-util');
 var del = require('del');
 var jshint = require('gulp-jshint');
-var buildProduction = utilities.env.production;
+var buildProduction = utilities.env.production; //after requirement statements
 
 gulp.task('concatInterface', function() {
   return gulp.src(['./js/*-interface.js'])
